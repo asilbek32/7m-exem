@@ -44,6 +44,8 @@ export const useAxios = () => {
           navigate("/login");
 
           return;
+        } else if (status === 400) {
+          throw error;
         }
       }
     }
