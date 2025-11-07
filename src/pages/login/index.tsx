@@ -39,7 +39,7 @@ function Login() {
             <label htmlFor="password">Parol</label>
             <input
               value={password}
-              type="text"
+              type="password"
               placeholder="*****"
               id="password"
               className="outline-none border border-solid border-gray-200 rounded-[7px] px-2 py-1"
